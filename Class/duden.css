@@ -1,0 +1,45 @@
+h1{
+    color: rgb(203, 31, 117);
+    font-size: 25px;
+    margin-left: 5px;
+}
+h1{
+    border-bottom: dotted 10px rgb(85, 4, 49); 
+    margin-left: 5px;
+    margin-right: 5px;
+}
+h2{
+    color: rgb(37, 68, 69); 
+    font-size: 15px;
+    margin-left: 5px;
+}
+p{
+    font-size: 15px;
+    margin-left: 5px;
+}
+ul{
+    background-color: rgb(244, 240, 232);
+    width: 200px;
+    height: 10px;
+    border: solid;
+    border-width: 3px;
+    border-color: rgb(97, 5, 189);
+    margin-left: 5px;
+    padding: 80px;
+    
+}
+body{
+    border: solid;
+    width: 450px;
+    margin-left: 350px;  
+     
+}
+p.info{
+    font-style: italic;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+em{
+    color: brown;
+}

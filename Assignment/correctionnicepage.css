@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+}
+main{
+    margin: 10% 20% 10% 5%;
+}
+header{
+    font-family: 'Courier New', Courier, monospace;
+    width: 25%;
+}
+section{
+    margin-top: 4%;
+    display: flex;
+}
+section article{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.5rem;
+    height: 20vh;
+    margin-right: 5%;
+    transform: translateY(80px);
+}
+section article button{
+    transform: translateY(150px);
+    border: 1px solid black;
+    color: black;
+    padding: 5px 10px;
+    background-color: white;
+}
+footer{
+    height: 200px;
+    background-color: darkslategray;
+    color: antiquewhite;
+    text-align: center;
+}
+footer p{ 
+    transform: translateY(100px);
+    margin: auto;
+}
