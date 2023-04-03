@@ -1,0 +1,104 @@
+body{
+    background: darkslategrey;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: lightskyblue;
+    overflow-y: scroll;
+}
+a{
+    text-decoration: dotted;
+}
+a.link{
+    color: greenyellow;
+    -webkit-transition: all 150ms ease 0s;
+    transition: all 150ms ease 0s;
+}
+a.link:hover{
+    color: azure;
+}
+p{
+    margin-bottom: 10px;
+}
+.tabs{
+    position: relative;
+    margin: 40px auto;
+    width: 1200px;
+    max-width: 100%;
+    overflow: hidden;
+    padding: 10px;
+    margin-bottom: 60px;
+}
+.tabs input{
+    position: absolute;
+    z-index: 1000;
+    width: 25%;
+    height: 50px;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    cursor: pointer;
+    margin: 0;
+}
+.tabs input#tab-2{
+    left: 25%;
+}.tabs input#tab-3{
+    left: 50%;
+}
+.tabs input#tab-4{
+    left: 75%;
+}
+.tabs label{
+    background: gainsboro;
+    color: lightcoral;
+    font-size: 15px;
+    line-height: 50px;
+    height: 60px;
+    position: relative;
+    top: 0;
+    padding: 0 20px;
+    float: left;
+    display: block;
+    width: 25%;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 2px 0 2px rgba(0, 0, 0, 0.1), -2px 0 2px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    -webkit-transition: all 150ms ease 0s;
+    transition: all 150ms ease 0s;
+}
+.tabs label:hover{
+    cursor: pointer;
+}
+.tabs label::after{
+    content: "";
+    background: #fefefe;
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    display: block;
+}
+.tabs input:hover + label{
+    background: khaki;
+}
+.tabs label:first-of-type{
+    z-index: 4;
+}
+.tab-label-2{
+    z-index: 4;
+}
+.tab-label-3{
+    z-index: 3;
+}
+.tab-label-4{
+    z-index: 2;
+}
+.tabs input:checked + label{
+    background-color: bisque;
+    color: violet;
+    z-index: 6;
+}

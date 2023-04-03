@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QUAD NETWORK</title>
+    <link rel="stylesheet" href="./style/icons/css/all.css" />
+    <link rel="stylesheet" href="./netxworkCharles.css" />
+    <script src="./script/jquery.js"></script>
+  </head>
+  <body>
+    <div id="main">
+      <div id="text">
+        <h1>WELCOME TO QUAD NETWORK</h1>
+        <p id="rechargePinText"></p><span id="copyBtn" class="tooltip"><i class="fa-regular fa-clipboard fa-xl"></i><span class="tooltiptext">Copy to clipboard</span></span>
+        
+        <div id="info">
+          <p>Dial *312* PIN # to load your card</p>
+          <p>Dial *313# to check Account Balance</p>
+          <p>Dial *300# to Buy a Data Bundle</p>
+          <p>Dial *314# to check Data Balance</p>
+        </div>
+        <button>Get a New Pin</button>
+      </div>
+      <div id="phoneContainer">
+        <div id="phone">
+          <div id="bar">
+            <p id="time"></p>
+            <div id="icons">
+              <i
+                class="fa-sharp fa-solid fa-battery-half"
+                style="color: #5ae534"
+              ></i>
+              <i class="fa-solid fa-wifi" style="color: #ffffff"></i>
+            </div>
+          </div>
+          <div id="screen">
+            <div id="dataHomePage">
+              <div id="dataHomePageContainer">
+                <div id="dataHomePageText">
+                  <h3>Buy Data Plans</h3>
+                  <p>1.Daily</p>
+                  <p>2.Weekly</p>
+                  <p>3.Monthly</p>
+                </div>
+                <div id="dataHomePageInputContainer">
+                  <input
+                    type="text"
+                    name="data"
+                    id="dataHomePageInput"
+                    autocomplete="off"
+                  />
+                </div>
+                <div id="dataHomePageBtns">
+                  <div id="dataHomePageBtnCancel">CANCEL</div>
+
+                  <div id="dataHomePageBtnReply">REPLY</div>
+                </div>
+              </div>
+            </div>
+            <div id="dailyDataPage">
+              <div id="dailyDataPageContainer">
+                <div id="dailyDataPageText">
+                  <p>1.#50 for 40MB</p>
+                  <p>2.#100 for 100MB</p>
+                  <p>3.#200 for 250MB</p>
+                  <p>4.#300 for 1GB</p>
+                </div>
+                <div id="dailyDataPageInputContainer">
+                  <input
+                    type="text"
+                    name="data"
+                    id="dailyDataPageInput"
+                    autocomplete="off"
+                  />
+                </div>
+                <div id="dailyDataPageBtns">
+                  <div id="dailyDataPageBtnCancel">CANCEL</div>
+                  <div id="dailyDataPageBtnReply">REPLY</div>
+                </div>
+              </div>
+            </div>
+            <div id="weeklyDataPage">
+              <div id="weeklyDataPageContainer">
+                <div id="weeklyDataPageText">
+                  <p>1.#300 for 350MB</p>
+                  <p>2.#500 for 1.5GB</p>
+                  <p>3.#500 for 750MB(2-week plan)</p>
+                  <p>4.#1500 for 6GB</p>
+                </div>
+                <div id="weeklyDataPageInputContainer">
+                  <input
+                    type="text"
+                    name="data"
+                    id="weeklyDataPageInput"
+                    autocomplete="off"
+                  />
+                </div>
+                <div id="weeklyDataPageBtns">
+                  <div id="weeklyDataPageBtnCancel">CANCEL</div>
+                  <div id="weeklyDataPageBtnReply">REPLY</div>
+                </div>
+              </div>
+            </div>
+            <div id="monthlyDataPage">
+              <div id="monthlyDataPageContainer">
+                <div id="monthlyDataPageText">
+                  <p>1.#1000 for 1.5GB</p>
+                  <p>2.#1200 for 2GB</p>
+                  <p>3.#2000 for 4.5GB</p>
+                  <p>4.#2500 for 6GB</p>
+                </div>
+                <div id="monthlyDataPageInputContainer">
+                  <input
+                    type="text"
+                    name="data"
+                    id="monthlyDataPageInput"
+                    autocomplete="off"
+                  />
+                </div>
+                <div id="monthlyDataPageBtns">
+                  <div id="monthlyDataPageBtnCancel">CANCEL</div>
+                  <div id="monthlyDataPageBtnReply">REPLY</div>
+                </div>
+              </div>
+            </div>
+            <div id="dialTextbg">
+              <div id="dialTextContainer">
+                <p id="dialText"></p>
+                <hr />
+                <div id="ok">OK</div>
+              </div>
+            </div>
+            <input type="text" name="display" id="display" autocomplete="off"/>
+            <span id="pasteButton" class="tooltip"><i class="fa-regular fa-paste" style="color: #ffffff;"></i><span class="pastetooltiptext">Paste</span></span>
+            <div id="buttonContainer">
+              <div class="buttons">1</div>
+              <div class="buttons">2</div>
+              <div class="buttons">3</div>
+              <div class="buttons">4</div>
+              <div class="buttons">5</div>
+              <div class="buttons">6</div>
+              <div class="buttons">7</div>
+              <div class="buttons">8</div>
+              <div class="buttons">9</div>
+              <div class="buttons">*</div>
+              <div class="buttons">0</div>
+              <div class="buttons">#</div>
+            </div>
+            <div id="callButtonContainer">
+              <div id="callButton">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div id="delete">
+                <i class="fa-solid fa-delete-left"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <script src="./networkCharles.js"></script>
+  </body>
+</html>

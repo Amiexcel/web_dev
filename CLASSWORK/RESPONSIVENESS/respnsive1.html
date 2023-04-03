@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-Introduction</title>
+    <style>
+        P{
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            text-align: center;
+            border: 2px solid rgba(24, 24, 41, 0.372);
+            background: rgba(0, 0, 200, 0.3);
+            color: rgba(0, 0, 200, 0.6);
+            box-shadow: 1px 1px 2px rgba(0, 0, 200, 0.4);
+            border-radius: 10px;
+            padding: 3px 10px;
+            display: inline-block;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+   <p>Hello World by JavaScript!</p> 
+</body>
+<script>
+    function changeText(){
+        const text = prompt("Enter any text");
+        para.textContent = text;
+    }
+    const para = document.querySelector("p");
+    para.addEventListener("click", changeText);
+</script>
+</html>

@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    color: azure;
+    width: 25rem;
+    border-radius: 10px;
+    padding: 5rem 2rem;
+    box-shadow: 0px 0px 20px 0px brown;
+    border: 1px solid cyan;
+}
+
+label{
+    display: block;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+
+.login-title{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.userName,  .userPassword {
+    text-align: center;
+    border: 2px solid salmon;
+    margin: 1rem;
+    color: azure;
+    background: transparent;
+    padding: 1rem 2rem;
+    border-radius: 3rem;
+    width: 15rem;
+    font-size: 1.2rem;
+    outline: none;
+    transition: all .5s ease-in-out;
+}
+
+.userName:focus, .userPassword:focus{
+    width: 20rem;
+    animation-name: colorChange;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colorChange{
+    0%{
+        border-color: aqua;
+        color: aqua;
+    }
+    10% {
+        border-color: burlywood;
+        color: burlywood;
+    }
+    20% {
+        border-color: red;
+        color: red;
+    }
+    30% {
+        border-color: blue;
+        color: blue;
+    }
+    40% {
+        border-color: yellow;
+        color: yellow;
+    }
+    50% {
+        border-color: hotpink;
+        color: hotpink;
+    }
+    60% {
+        border-color: green;
+        color: green;
+    }
+    70% {
+        border-color: orange;
+        color: orange;
+    }
+    80% {
+        border-color: purple;
+        color: purple;
+    }
+    90% {
+        border-color: grey;
+        color: grey;
+    }
+    100% {
+        border-color: cornflowerblue;
+        color: cornflowerblue;
+    }
+}
+
+.loginBtn{
+    background: transparent;
+    border: 2px solid green;
+    padding: 1rem 3rem;
+    border-radius: 6rem;
+    text-decoration: underline;
+    font-size: 1.3rem;
+    color: azure;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.loginBtn:hover{
+    background-color: rgb(1, 28, 19);
+    border: 2px solid aquamarine;
+}
+
+#show-hide{
+    font-size: 1rem;
+}
+
+.fa{
+    color: red;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        counter-reset: my-sec-counter;
+    }
+    h3::before{
+        counter-increment: my-sec-counter;
+        content: "Section" counter(my-sec-counter)":";
+    }
+    section{
+        float: left;
+        padding: 15px;
+    }
+    .sec1{
+        background-color: aqua;
+    }
+    .sec2{
+        background-color: blueviolet;
+    }
+    .sec3{
+        background-color: blue;
+    }
+</style>
+<body>
+    <input type="text"><br>
+    <input type="password"><br>
+    <input type="radio"><br>
+    <input type="checkbox"><br>
+    <input type="button"><br>
+    <input type="color"><br>
+    <input type="email"><br>
+    <input type="file"><br>
+    <input type="hidden"><br>
+    <input type="image"><br>
+    <input type="number"><br>
+    <input type="range"><br>
+    <input type="search"><br>
+    <input type="tel"><br>
+    <input type="time"><br>
+    <input type="date"><br>
+    <input type="datetime-local"><br>
+    <input type="week"><br>
+    <input type="month"><br>
+    <input type="url"><br>
+    <input type="submit"><br>
+    <input type="reset"><br>
+    <input type="datetime"><br>
+    <div class="login-form">
+        <h1>Login Form</h1>
+        <form action="#" method="dialog">
+            <p>User name</p>
+            <input type="text" name="user" placeholder="user name">
+            <p>password</p>
+            <input type="password" name="password" placeholder="password">
+            <button type="submit">Login</button>
+        </form>
+    </div>
+    <h2>Using CSS Counters</h2>
+    <h3>HTML</h3>
+    <h3>CSS</h3>
+    <h3>JavaScript</h3>
+    <h3>Python</h3>
+    <h4>Floating three Divs next to each other</h4>
+    <section class="sec1">Sec1</section>
+    <section class="sec2">Sec2</section>
+    <section class="sec3">Sec3</section>
+</body>
+</html>

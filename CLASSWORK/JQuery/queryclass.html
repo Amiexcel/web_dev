@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="jquery-1.11.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            // $("p").html("Hello World!");
+            // $("#para").remove();
+            // $(".pClass").after("<h1> This is a Header </h1>");
+            // $(".textField").val("Hello World");
+            // $("#textDiv").empty();
+            // $(".pClass").append(" This is extra text");
+            // $(".pClass").prepend("Start text with ");
+            // $(".pClass").before("<h1>This is the main Header</h1>");
+            // $("img").attr("width" , "200px")
+            // $("#button").click(function(){
+            //     $("p").html("Beautiful World")
+            // })
+            // $("#button").dblclick(function(){
+            //     //dbl is double click
+            //     $("p").html("Peaceful World")
+            // })
+
+            // $("#button").mouseenter(function(){
+            //     $("p").html("Wonderful World")
+            // }) 
+            
+            // $("#button").mouseleave(function(){
+            //     $("p").html("Big World")
+            // })     
+
+            // $(".textField").keydown(function(){
+                //executes once you click on any key
+            //     $("p").html("Amazing World")
+            // }) 
+            // $(".textField").focus(function(){
+            //     $("p").html("Sweet World")
+            // })     
+
+            // $(".textField").blur(function(){
+            //     $("p").html("Happy World")
+            // })
+            // $("#button").click(function(){
+            //     $("p").hide(3000)
+            // })          
+            // $("#button").click(function(){
+            //     $("p").toggle(1000)
+            // })          
+            $("#button").click(function(){
+                $("p").fadeToggle(5000)
+            })          
+        })
+    </script>
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" class="textField">
+  <p class="pClass">This is a Paragraph</p>
+  <p id="para">This is a Paragraph</p>
+  <div id="textDiv">
+    <p>Hello</p>
+    <p>Hello</p>
+    <p>Hello</p>
+    <p>Hello</p>
+    <p>Hello</p>
+</div>
+<button id="button">CLICK ME</button>
+<!-- <img src="../IMAGES/images/Virtual-Congress-Slide-Background.jpg">    -->
+</body>
+</html>

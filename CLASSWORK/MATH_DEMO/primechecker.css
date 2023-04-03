@@ -1,0 +1,57 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 100vh;
+    color: white;
+}
+
+#outer-body{
+    background: linear-gradient(to right, blue, purple, red, purple, blue);
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#inner-body{
+    border-radius: 10px;
+    padding: 20px;
+    height: 100%;
+    width: 400px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+input{
+    align-self: center;
+    border: 5px white solid;
+    border-radius: 10px;
+    width: 80%;
+    height: 70px;
+    font-size: 3rem;
+    margin: 10px;
+    color: white;
+    background: black;
+}
+button{
+    justify-content: center;
+    align-self: center;
+    padding: 10px;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    display: block;
+    background: linear-gradient(right, blue, purple, red, purple, blue);
+    width: 100px;
+    height: 50px;
+    
+}
+
+p{
+    text-align: center;
+    padding: 10px;
+    font-size: 2rem;
+}

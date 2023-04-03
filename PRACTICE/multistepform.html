@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi Step Form</title>
+    <link rel="stylesheet" href="./multistepform.css">
+</head>
+<body>
+    <form id="msform">
+        <ul id="progressbar">
+            <li class="active">Account Setup</li>
+            <li>Social Profiles</li>
+            <li>Personal Details</li>
+        </ul>
+        <fieldset id="log-in">
+            <h2 class="fs-title">Create your account</h2>
+            <h3 class="fs-subtitle">This is step 1</h3>
+            <input type="text" id="email" placeholder="Email">
+            <input type="password" id="pass" placeholder="Password">
+            <input type="password" id="cpass" placeholder="Confirm Password">
+            <p id="err"></p>
+            <input type="button" id="next" class="next action-button" value="Next">
+        </fieldset>
+        <fieldset id="social-media">
+            <h2 class="fs-title">Social Profiles</h2>
+            <h3 class="fs-subtitle">Your presence on the social network</h3>
+            <input type="text" id="twitter" placeholder="Twitter">
+            <input type="text" id="facebook" placeholder="Facebook">
+            <input type="text" id="gplus" placeholder="Google Plus">
+            <input type="button" id="previous" class="previous action-button" value="Previous">
+            <input type="button" id="s-next" class="next action-button" value="Next">
+        </fieldset>
+        <fieldset id="person-info">
+            <h2 class="fs-title">Personal Details</h2>
+            <h3 class="fs-subtitle">We will never sell it</h3>
+            <input type="text" id="fname" placeholder="First Name">
+            <input type="text" id="lname" placeholder="Last Name">
+            <input type="text" id="phone" placeholder="Phone">
+            <textarea id="address" placeholder="Address"></textarea>
+            <input type="button" id="s-previous" class="previous action-button" value="Previous">
+            <input type="submit" id="submit" class="submit action-button" value="Submit">  
+        </fieldset>
+    </form>
+    <script src="./multistepform.js"></script>
+</body>
+</html>

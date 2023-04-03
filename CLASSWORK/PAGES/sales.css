@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-size: 0.9rem;
+    font-family: "Epilogue", sans-serif;
+}
+/* NAV STYLE */
+nav{
+    padding: 1% 5%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    font-weight: bold;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: white;
+}
+.left-menu, .right-menu{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.left-menu li:nth-child(1){
+    margin-right: 0.6rem;
+}
+span.double{
+    display: block;
+    text-align: center;
+    font-weight: lighter;
+}
+span.double:nth-child(1){
+    padding-bottom: 4%;
+}
+.button1{
+padding: 10px 20px;
+background-color: green;
+border-radius: 4px;
+font-size: larger;
+color: white;
+border: none;
+}
+/* MAIN PAGE STYLING */
+main{
+    margin: 100px auto;
+}
+.left-banner h1{
+    font-size: 4.5em;
+    margin-bottom: 20px;
+}
+.banner-image{
+    width: 20rem;
+    transform: translate(-200px, 30px);
+}
+
+.banner{
+    background-image: url(../Class/images/img/homepage-success-now-lg-bg.jpg);
+    background-position: bottom center;
+    background-size: 100% 100%;
+    height: 50vh;
+}
+.left-banner .caption{
+    width: 75%;
+    margin-bottom: 40px;
+}
+.left-banner p{
+    font-size: 1.8rem;
+    line-height: 1.9rem;
+}
+.cta .btn1, .btn2{
+    padding: 1rem 1.5rem;
+    font-weight: bold;
+}
+.btn1{
+    background-color: #0176d3;
+    color: white;
+    margin-right: 25px;
+}
+.btn1:hover{
+    background-color: #033159;
+    color: white;
+}
+.btn2{
+    background-color: transparent;
+    border: 1px solid #0176d3;
+    color: #0176d3;
+}
+.container{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 3% auto;
+    
+}
+.left-banner, .right-banner{
+    padding-top: 3%;
+}
+.left-banner a{
+    font-size: 1em;
+}
+.feature{
+    margin: 3%;
+}
+.feature h1{
+    text-align: center;
+    font-size: 3.5em;
+}
+.feature-card{
+    width: 450px;
+    height: 500px;
+    border-radius: 25px;
+    box-shadow: 0 2px 50px rgb(0 0 0 / 0.2);
+}
+.feature-card img{
+    border-radius: 25px 25px 0 0;
+}
+.feature-card h3{
+    font-size: 2rem;
+    padding: 1rem;
+}
+.feature-card p{
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+.flex-card-column{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button>joy</button>
+    <button>love</button>
+    <button>peace</button>
+    <button>unity</button>
+    <button>fly</button>
+    <button>win</button>
+    <button>success</button>
+</body>
+<script>
+    function createParagraph(){
+        const para = document.createElement("p");
+        para.textContent = "You created a new paragraph";
+        const para = document.querySelectorAll("p");
+        console.log(paragraph.length);
+        if(paragraph.length > 6)
+       {document.body.appendChild(para);
+        }
+        else{
+            console.log("you have exceeded the limit");
+        }
+    }
+    const buttons = document.querySelectorAll("button");
+    for(const button of buttons){
+        button.addEventListener("click", createParagraph);
+    }
+</script>
+</html>

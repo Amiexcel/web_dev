@@ -1,0 +1,325 @@
+nav{
+    display: flex;
+}
+
+.logo{
+    font-size: 25px;
+margin-left: 30px;
+padding-top: 20px;
+}
+
+.menu{
+font-size: 20px;
+margin-left: 550px;
+padding-top: 20px;
+}
+
+.menu-item{
+text-decoration: none;
+justify-content: space-between;
+margin: 20px;
+}
+header{
+    background-image: url(../Assignment/images/woods.jpg);
+    height: 1000px; 
+}
+
+.header-text{
+    font-size: 20px;
+    color: greenyellow;
+    text-align: center;
+    padding-top: 300px;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: greenyellow;
+}
+
+.header-button{
+    height: 50px;
+    width: 200px;
+    background-color: green;
+    border-radius: 40px;
+    margin-left: 650px;
+    border: 0px;
+}
+span{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-one{
+    display: flex;
+}
+.one-first{
+    height: 500px;
+    width: 800px;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+h3{
+    font-size: 25px;
+    font-weight: lighter;
+    margin-left: 60px;
+}
+h4{
+    font-size: 20px;
+    font-weight: lighter;
+    margin-left: 60px;
+}
+
+.read-button{
+    height: 50px;
+    width: 300px;
+    background-color: rgb(88, 170, 117);
+    margin-left: 60px;
+    border: 0px;
+}
+.first-button{
+    height: 40px;
+    width: 400px;
+    margin: 10px;
+    background-color: green;
+    border-radius: 40px;
+    border: 0px;
+    margin-left: 100px;
+}
+.first-text{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-right: 250px;
+}
+
+.one-second{
+    height: 200px;
+    width: 400px;
+    margin-left: 100px;
+}
+h2{
+    margin-left: 100px;
+}
+
+h5{
+    font-size: 25px;
+    font-weight: lighter;
+    margin-left: 100px;
+}
+
+hr{
+    margin-top: 20px;
+}
+
+.main-two{
+    display: flex;
+}
+
+.two-first{
+    height: 500px;
+    width: 800px;
+    margin-left: 60px;
+}
+.two-second{
+    height: 200px;
+    width: 400px;
+    margin-left: 100px;
+}
+
+.main-three{
+    display: flex;
+}
+.three-first{
+    height: 500px;
+    width: 800px;
+    margin-left: 60px;
+}
+.three-second{
+    height: 200px;
+    width: 400px;
+    margin-left: 100px;
+}
+.three-input{
+    height: 40px;
+    width: 300px;
+    font-size: 20px;
+    margin-left: 100px;
+}
+.three-button{
+    height: 45px;
+    width: 300px;
+    background-color: rgb(88, 170, 117);
+    border: 0px;
+    margin-left: 100px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.main-four{
+    display: flex;
+}
+.four-first{
+    height: 500px;
+    width: 800px;
+    margin-left: 60px;
+}
+.four-button1{
+    height: 40px;
+    width: 100px;
+    background-color: rgb(47, 255, 0);
+    border-radius: 40px;
+    border: 0px;
+    margin: 10px;
+}
+.four-button2{
+    height: 40px;
+    width: 80px;
+    background-color: rgb(47, 255, 0);
+    border: 0px;
+    border-radius: 40px;
+    margin: 10px;
+}
+.four-button3{
+    height: 40px;
+    width: 70px;
+    background-color: rgb(47, 255, 0);
+    border: 0px;
+    border-radius: 40px;
+    margin: 10px;
+}
+.four-button4{
+    height: 40px;
+    width: 150px;
+    background-color: rgb(47, 255, 0);
+    border: 0px;
+    border-radius: 40px;
+    margin: 10px;
+
+}
+.four-button5{
+    height: 40px;
+    width: 170px;
+    background-color: rgb(47, 255, 0);
+    border: 0px;
+    border-radius: 40px;
+    margin: 20px;
+}
+.four-button6{
+    height: 40px;
+    width: 200px;
+    background-color: rgb(47, 255, 0);
+    border: 0px;
+    border-radius: 40px;
+    margin: 10px;
+}
+.four-button7{
+    height: 40px;
+    width: 90px;
+    background-color: rgb(47, 255, 0);
+    border: 0px;
+    border-radius: 40px;
+    margin: 10px;
+}
+.four-button8{
+    height: 40px;
+    width: 90px;
+    background-color: rgb(47, 255, 0);
+    border: 0px;
+    border-radius: 40px;
+    margin: 10px;
+}
+.four-button9{
+    height: 40px;
+    width: 100px;
+    background-color: rgb(47, 255, 0);
+    border: 0px;
+    border-radius: 40px;
+    margin: 10px;
+}
+.four-button10{
+    height: 40px;
+    width: 70px;
+    background-color: rgb(47, 255, 0);
+    border: 0px;
+    border-radius: 40px;
+    margin: 10px;
+}
+.four-button11{
+    height: 40px;
+    width: 90px;
+    background-color: rgb(47, 255, 0);
+    border: 0px;
+    border-radius: 40px;
+    margin: 10px;
+}
+.buttons{
+    margin-left: 30px;
+}
+.four-text{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+    text-align: center;
+}
+.four-bars{
+    height: 60px;
+    width: 400px;
+    background-color: rgb(71, 190, 117);
+    border: 0px;
+    border-radius: 40px;
+    margin-left: 250px;
+    font-size: 20px;
+    margin-top: -100px;
+}
+.side-bars{
+    height: 50px;
+    width: 250px;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: -50px;
+    border: 0px;
+}
+footer{
+    display: flex;
+    background-color: rgb(37, 37, 37);
+    height: 300px;
+}
+.foot-image{
+    height: 70px;
+    width: 70px;
+    margin: 5px;
+}
+.foot-text{
+    margin-left: 100px;
+    color: azure;
+    font-size: 20px;
+}
+.foot-head{
+    font-size: 30px;
+    color: azure;
+}
+.foot-head2{
+    color: azure;
+    font-size: 30px;
+    margin-left: 30px;
+}
+.foot-text2{
+    color: azure;
+    font-size: 20px;
+    margin-left: 30px;
+}
+.foot-mail{
+    height: 35px;
+    width: 200px;
+    margin-left: 30px;
+    font-size: 18px;
+    background-color: black;
+    color: azure;
+    border: 0px;
+}
+.six-images{
+    margin-left: 100px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
