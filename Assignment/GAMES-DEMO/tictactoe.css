@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: olive;
+    background: rgb(46, 8, 136);
     padding-top: 100px;
 }
 
@@ -34,12 +34,12 @@ body{
     justify-content: center;
 }
 .btn{
-    background-color: lightgreen;
-    border: 2px solid green;
-    box-shadow: -4px -4px 1px darkolivegreen;
+    background: #90b9ee;
+    border: 2px solid rgb(128, 117, 0);
+    box-shadow: -4px -4px 1px rgb(130, 80, 237);
     border-radius: 5px;
     height: 75px;
-    margin: 2px;
+    margin: 5px;
     width: 75px;
     text-align: center;
     font-size: 50px;
@@ -47,7 +47,7 @@ body{
 }
 .btn:hover{
     cursor: pointer;
-    background-color: cadetblue;
+    background: cadetblue;
 }
 .btn:disabled{
     color: darkgreen;
@@ -68,7 +68,7 @@ body{
     cursor: pointer;
     color: red;
     font-weight: bold;
-    background-color: lightgreen;
+    background: lightgreen;
     border-radius: 5px;
     padding: 10px 20px;
     font-size: 18px;
@@ -77,5 +77,5 @@ body{
 }
 #reset:hover{
     color: azure;
-    background-color: cadetblue;
+    background: cadetblue;
 }

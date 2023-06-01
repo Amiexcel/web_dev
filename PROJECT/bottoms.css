@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #cfcfcf;
+}
+nav{
+    display: flex;
+    background: gray;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.nav-img{
+    height: 20px;
+    width: 20px;
+    padding: 10px;
+    margin: 0px 10px;
+}
+.nav-right{
+    margin-left: 850px;
+}
+main{
+    display: flex;
+    margin: 15px;
+}
+.main-image{
+    height: 260px;
+    width: 200px;
+    padding: 20px;
+}
+.product-card{
+    background-color: white;
+    height: 450px;
+    width: 300px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+.first-card{
+    margin-top: 70px;
+}
+.cartbtn{
+    width: 200px;
+    height: 40px;
+    margin-top: 12px;
+    border-radius: 3px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background: gray;
+    color: #363636;
+    font-size: 15px;
+    font-weight: bold;
+}
+.haves-text{
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px;
+}
+footer{
+    background: white;
+    margin-top: 20px;
+    height: 300px;
+}
+.h4footer{
+    color: #363636;
+    text-align: center;
+    font-size: 20px;
+    margin: 20px;
+    padding-top: 35px;
+}
+.footerIcons{
+    margin-left: 480px;
+}
+.footer-image{
+    height: 40px;
+    width: 40px;
+    margin: 0px 20px 20px 20px;
+}
+.footerList{
+    margin-left: 300px;
+}
+.footerNav{
+    margin: 0px 20px;
+    text-decoration: none;
+    color: #363636;
+}
+.footerNav:hover{
+    color: green;
+    text-decoration: underline;
+}
+.footerLink{
+    margin: 20px 0px 0px 500px;
+    color: #363636;
+    font-weight: bolder;
+}
+
+

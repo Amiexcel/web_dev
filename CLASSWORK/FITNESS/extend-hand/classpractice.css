@@ -4,7 +4,7 @@
 }
 
 body {
-    background: black;
+    background: rgb(4, 176, 233);
     width: 100%;
     height: 100vh;
     font-family: Cinzel;
@@ -17,12 +17,13 @@ button {
 
 input, textarea {
     outline: none;
+    background-color: aquamarine;
 }
 
 /* HEADER STYLING */
 header {
     padding: 35px 50px 75px;
-    background: black;
+    background: rgb(4, 176, 233);
 }
 
 /* brings the logo to same vertical position with Nav Burger */
@@ -75,7 +76,7 @@ header {
 }
 
 .modal {
-    background: white;
+    background: powderblue;
     width: 100%;
     padding: 70px 50px;
     text-align: center;
@@ -90,7 +91,7 @@ header {
 .modal button {
     background: none;
     border: none;
-    background: black;
+    background: green;
     color: white;
     margin-top: 10px;
     padding: 10px 50px;
@@ -157,7 +158,7 @@ header {
 .main-button {
     background: none;
     border: none;
-    background: white;
+    background: aquamarine;
     margin-top: 10px;
     padding: 10px 50px;
     font-size: 25px;
@@ -232,7 +233,7 @@ textarea {
     .main-button {
         background: none;
         border: none;
-        background: white;
+        background: aquamarine;
         margin-top: 10px;
         padding: 10px 50px;
         font-size: 20px;

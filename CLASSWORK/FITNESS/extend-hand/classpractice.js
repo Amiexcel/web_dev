@@ -14,26 +14,31 @@
 // main_btn.addEventListener('click', () => {
 //     console.log("Button works");
 // })
+
+
+
+
 const main_btn = document.querySelector("#main-button");
 const modal = document.querySelector('#modal');
 const modal_button = document.querySelector("#modal_button");
 
-const buttonFunc = () => {
+const openModalFunc = () => {
     modal.classList.add("show");
 }
-main_btn.addEventListener('click', buttonFunc);
-const buttonFun = () => {
+
+main_btn.addEventListener('click', openModalFunc);
+
+const closeModalFunc = () => {
     modal.classList.remove("show");
 }
-modal_button.addEventListener('click', buttonFun);
+
+modal_button.addEventListener('click', closeModalFunc);
 
 const burger = document.querySelector('#burger');
 const navigation = document.querySelector('#navigation');
+
 const burgerTap = () => {
-navigation.classList.toggle("show")
-burger.classList.toggle("color");
+    navigation.classList.toggle("show")
+    burger.classList.toggle("color");
 }
-burger.addEventListener('click', burgerTap );
-
-
-
+burger.addEventListener('click', burgerTap);

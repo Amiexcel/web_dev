@@ -1,0 +1,47 @@
+.card{
+    position: relative;
+    width: 350px;
+    height: 250px;
+    background-color: black;
+    /* overflow: hidden; */
+}
+.card-image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    scale: 1.15;
+    transition: opacity 0.5s, 
+    scale 0.75s;
+}
+.card:hover .card-image{
+    opacity: 0.2;
+    scale: 1;
+}
+.card-body{
+    position: absolute;
+    inset: 0;
+    padding: 50px;
+    color: rgb(176, 37, 49);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 15px;
+    justify-content: center;
+}
+.card-body::before{
+    /* .card-body { */
+    content: '';
+    position: absolute;
+    inset: 20px;
+    border: 2px solid red;
+    opacity: 0;
+    scale: 1.25;
+    transition: opacity 0.5s,
+    scale 0.5s;
+}
+.card:hover .card-body::before{
+    opacity: 1;
+    scale: 1;
+}
+.card-title

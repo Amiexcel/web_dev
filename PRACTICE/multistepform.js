@@ -22,7 +22,7 @@ submitButton = document.querySelector("#submit");
 
 btn.addEventListener("click", () => {
     if (password.value == "" || email.value == "" || confirmPassword.value == "") {
-        console.log("Dont go to the next page");
+        alert("Fill all fields");
     } else if (password.value != confirmPassword.value) {
         err.innerHTML = "Password does not match";
     } else {

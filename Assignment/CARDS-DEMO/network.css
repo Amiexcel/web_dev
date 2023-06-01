@@ -75,13 +75,8 @@ img{
     margin-top: 10px;
 }
 #pin{
-    width: 200px;
-    height: 30px;
     font-size: 20px;
     font-weight: bold;
     color: rgb(55, 2, 110);
-    text-align: center;
-    background-color: transparent;
-    border: 0;
-    outline: 0;
+    margin-left: 10px;
 }

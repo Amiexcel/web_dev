@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            width: 100%;
+            height: 100vh;
+            display: grid;
+            grid-template-columns: repeat(1, 100%);
+            place-items: center;
+        }
+
+        div {
+            width: 500px;
+            height: 600px;
+            overflow: hidden;
+        }
+
+        div:hover {
+            animation: animate 1s;
+        }
+
+        @keyframes animate {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        div:not(:hover) {
+            animation: animate2 1s;
+        }
+
+        @keyframes animate2 {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        img {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="card">
+        <img src="./Images/feature00.jpg" alt="img" id="img">
+    </div>
+    <script>
+        const card = document.getElementById("card");
+        const img = document.getElementById("img");
+
+        //card.onmouseover = () => {
+        //img.src = "Images\feature02.jpg"
+        // 
+        let i = 0;
+        const imgCarousel = () => {
+            const imgArr = ['Images/feature02.jpg', 'Images/feature03.jpg', 'Images/feature04.jpg'];
+            img.src = imgArr[i];
+            i++;
+            if (i > imgArr.length - 1) {
+                i = 0;
+            }
+            setTimeout("imgCarousel()", 2000);
+
+            card.onmouseout = () => {
+                img.src = "Images/feature00.jpg";
+                return;
+            }
+        }
+        card.onmouseover = imgCarousel;
+    </script>
+</body>
+
+</html>

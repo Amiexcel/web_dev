@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    height: 100%;
+    /*Image only BG fallback*/
+    /*background = gradient + image pattern combo*/
+    background: #cfcfcf;
+}
+body{
+    font-family: montserrat, arial, verdana;
+}
+/*form styles*/
+#msform{
+    width: 450px;
+    margin: 100px auto;
+    text-align: center;
+    position: relative;
+}
+
+#msform fieldset{
+    background: white;
+    border: 0 none;
+    border-radius: 3px;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+    padding: 60px 40px;
+    box-sizing: border-box;
+    width: 80%;
+    margin: 0 30px;
+    /*stacking fieldset above each other*/
+    position: relative;
+}
+/*Hide all except first fieldset*/
+#msform fieldset:not(:first-of-type) {
+    display: none;
+}
+/*inputs*/
+#msform input, #msform textarea {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: montserrat;
+    color: #2c3e50;
+    font-size: 15px;
+}
+/*buttons*/
+#msform .action-button{
+    width: 100px;
+    background: gray;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 1px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin-top: 40px;
+}
+#msform .action-button:hover, #msform .action-button:focus{
+    box-shadow: 0 0 0 2px white, 0 0 0 3px #469daa
+}
+/*headings*/
+.fs-title{
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #363636;
+    margin-bottom: 10px;
+}
+.fs-subtitle{
+    font-weight: normal;
+    font-size: 15px;
+    color: #363636;
+    margin-bottom: 20px;
+}
+
+#progressbar li:before {
+    content: counter(step);
+    counter-increment: step;
+    width: 20px;
+    line-height: 20px;
+    display: block;
+    font-size: 10px;
+    color: #333;
+    background: white;
+    border-radius: 3px;
+    margin: 0 auto 5px auto;
+}
+/*progressbar connector*/
+#progressbar li:after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: white;
+    position: absolute;
+    left: -50%;
+    top: 9px;
+    z-index: -1; /*puts it behind the numbers*/
+}
+
+p{
+    color: red;
+    text-align: left;
+    font-size: 10px;
+    padding-top: 0;
+}
+
+#msform #cpass{
+    margin-bottom: 0;
+}
